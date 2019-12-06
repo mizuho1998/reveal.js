@@ -1766,3 +1766,8 @@ $notesWidthPercent: 25%;
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+// add centerize class
+.reveal .slides .title{
+    text-align: center;
+}
