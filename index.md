@@ -1,15 +1,19 @@
+<!-- .slide: class="title" -->
 
-
-<!-- .slide: data-transition="zoom" data-background="#1A237E"-->
-<!-- .section: data-font=110 color="#888888"-->
-
-## Slide Title
-
-slide 1
+# title
+## subtitle
 
 ---
 
-slide 2
+## Slide 1
+
+- Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="2" -->
+- Item 3 <!-- .element: class="fragment" data-fragment-index="3" -->
+
+---
+
+## Slide 2
 
 <pre><code class="hljs" data-line-numbers="4,8-11">
 import React, { useState } from 'react';
@@ -30,20 +34,24 @@ function Example() {
 
 >>>
 
+<!-- .slide: data-transition="zoom" data-background="#aaaa00"-->
 
-slide 2-1
-
->>>
-
-slide 2-2
+## Slide 2-1
 
 >>>
 
-slide 2-3
+<!-- .slide: data-transition="zoom" data-background="#aa00aa"-->
+
+## Slide 2-2
+
+>>>
+
+<!-- .slide: data-transition="zoom" data-background="#00aaaa"-->
+
+## Slide 2-3
 
 ---
 
-slide 3
+## Slide 3
 
-Note:
-tis will only display in the notes window
+<section data-background-iframe="https://dev.classmethod.jp/" data-background-interactive></section>
