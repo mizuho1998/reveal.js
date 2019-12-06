@@ -1,7 +1,7 @@
 <!-- .slide: class="title" -->
 
 # title
-## subtitle
+## YYYY/MM/DD
 
 ---
 
