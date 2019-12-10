@@ -164,7 +164,11 @@ body {
 .reveal .slides section .fragment.highlight-green,
 .reveal .slides section .fragment.highlight-current-green,
 .reveal .slides section .fragment.highlight-blue,
-.reveal .slides section .fragment.highlight-current-blue {
+.reveal .slides section .fragment.highlight-current-blue, 
+.reveal .slides section .fragment.highlight-gray,
+.reveal .slides section .fragment.highlight-current-gray,
+.reveal .slides section .fragment.highlight-trans,
+.reveal .slides section .fragment.highlight-current-trans {
 	opacity: 1;
 	visibility: inherit;
 }
@@ -177,6 +181,13 @@ body {
 	.reveal .slides section .fragment.highlight-blue.visible {
 		color: #1b91ff;
 	}
+	.reveal .slides section .fragment.highlight-gray.visible {
+		color: #cccccc;
+	}
+	.reveal .slides section .fragment.highlight-trans.visible {
+        opacity: 0.3;
+	}
+
 
 .reveal .slides section .fragment.highlight-current-red.current-fragment {
 	color: #ff2c2d
@@ -187,6 +198,13 @@ body {
 .reveal .slides section .fragment.highlight-current-blue.current-fragment {
 	color: #1b91ff;
 }
+.reveal .slides section .fragment.highlight-current-gray.current-fragment {
+	color: #cccccc;
+}
+.reveal .slides section .fragment.highlight-current-trans.current-fragment {
+	opacity: 0.3;
+}
+
 
 
 /*********************************************
